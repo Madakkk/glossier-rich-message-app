@@ -6,7 +6,7 @@ app.use(express.json({ limit: "2mb" }));
 
 const PORT = Number(process.env.PORT || 3000);
 const GLOSSIER_PRODUCTS_URL = "https://www.glossier.com/products.json?limit=250";
-const ADD_USER_URL = "https://api.livechatinc.com/v3.6/agent/action/add_user_to_chat";
+const ADD_USER_URL = "https://api.livechatinc.com/v3.5/agent/action/add_user_to_chat";
 const SEND_EVENT_URL = "https://api.livechatinc.com/v3.5/agent/action/send_event";
 const DEFAULT_AGENT_ID = "m.kosnik+wecandoit@text.com";
 
