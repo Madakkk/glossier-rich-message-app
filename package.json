@@ -1,0 +1,25 @@
+{
+  "name": "glossier-rich-message-app",
+  "version": "5.0.0",
+  "description": "Webhook app that fetches Glossier products, matches customer query, adds an agent to chat, and sends a Text rich message carousel.",
+  "main": "dist/server.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "dev": "tsx src/server.ts"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "he": "^1.2.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/he": "^1.2.3",
+    "@types/node": "^22.5.4",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.2"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
